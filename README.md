@@ -1,2 +1,2 @@
 # Site_a_optimiser
-Site web optimiser pour le referencement
+Site web optimisé pour le referencement
