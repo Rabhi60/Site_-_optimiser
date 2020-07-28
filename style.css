@@ -825,6 +825,24 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+/* debut - Ajout pour l'optimisation */
+
+#bloc_center{
+    margin-top: 2em !important;
+}
+
+.margin_top{
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px){
+    .text-hidden{
+        display: none;
+    }
+}
+
+/* Fin - Ajout pour l'optimisation */
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
