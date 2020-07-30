@@ -850,6 +850,10 @@ h4 {
     color: orange!important;
 }
 
+.smalltitle{
+    text-transform: none;
+}
+
 /* Fin - Ajout pour l'optimisation */
 
 @media (max-width: 1024px) {
