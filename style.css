@@ -841,6 +841,15 @@ h4 {
     }
 }
 
+.black{
+    color: #000000!important;
+    font-weight: bold!important;
+}
+
+.orange{
+    color: orange!important;
+}
+
 /* Fin - Ajout pour l'optimisation */
 
 @media (max-width: 1024px) {
