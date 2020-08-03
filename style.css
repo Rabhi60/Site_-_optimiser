@@ -511,6 +511,7 @@ button {
 }
 
 .scrollToTop {
+    
     width: 40px;
     height: 40px;
     position: fixed;
@@ -523,6 +524,7 @@ button {
 
 .scrollToTop span {
     margin-top: 6px;
+  
 }
 
 .showScrollTop {
@@ -853,6 +855,7 @@ h4 {
 .smalltitle{
     text-transform: none;
 }
+
 
 /* Fin - Ajout pour l'optimisation */
 
