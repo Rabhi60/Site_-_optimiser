@@ -334,7 +334,8 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    background: #953D23;
+    color: white!important;
 }
 
 .navbar-toggle {
@@ -449,15 +450,19 @@ nav .caret {
     margin: 0 5px 5px 0;
 }
 
+
+
 .btn.pull-right {
     margin: 0 0 5px 5px;
 }
 
-.btn-d,
+
+.btn-d,/* bloc avec chevron modifié*/
 .btn-d:hover,
 .btn-d:focus {
     color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    background: white;
+    border: 1px solid black;
 }
 
 button {
@@ -468,11 +473,16 @@ button {
     border-radius: 40px;
 }
 
+
 .btn-clean {
     border: 1px solid rgba(0, 0, 0, .08);
     border-bottom-color: rgba(0, 0, 0, .1);
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
+}
+
+.btn-clean:focus{
+    border: 2px solid yellow!important;
 }
 
 .icon-md {
@@ -764,6 +774,10 @@ h4 {
     text-decoration: underline!important;
 }
 
+.bold-link:focus{
+    background-color: #000000!important;
+}
+
 .bgc-white {
     background-color: #FFFFFF;
 }
@@ -786,8 +800,9 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #953D23!important;
-    color: #FFFFFF!important;
+    background: #FFFFFF!important;
+    color: #953D23!important;
+    border: 1px solid black;
 }
 
 .ltc-white {
@@ -829,6 +844,13 @@ h4 {
 
 /* debut - Ajout pour l'optimisation */
 
+.fond:hover{
+  background-color: rgba(149, 61, 35,0.5);
+}
+.fond:focus{
+    background:  yellow;
+}
+
 #bloc_center{
     margin-top: 2em !important;
 }
@@ -856,6 +878,9 @@ h4 {
     text-transform: none;
 }
 
+.font-size-p{
+    font-size: 15px;
+}
 
 /* Fin - Ajout pour l'optimisation */
 
